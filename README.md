@@ -19,7 +19,7 @@ first we gonna build the Container
 ```
 git clone https://github.com/nadeemjazmawe/gs-spring-boot.git
 cd gs-spring-boot
-docker build -t gs-boot 
+docker build -t gs-boot  .
 ```
 for checking the Container we use this command:
 ```
@@ -27,15 +27,17 @@ docker run -d -p 8080:8080 gs-boot
 ```
 To push the Container i have used this commands:
 ```
-docker tag gs-boot nadeemjazmawe/gs-boot:1.0
-docker push nadeemjazmawe/gs-boot:1.0
+docker tag gs-boot:latest nadeemjazmawe/gs-boot:latest
+docker push nadeemjazmawe/gs-boot:latest
 ```
 
 
 ## Pull Container ##
 you can pull the image from the Docker Hub and run it:
 ``` 
-docker pull nadeemjazmawe/gs-boot:1.0```
+docker pull nadeemjazmawe/gs-boot:latest
+docker run -d -p 8080:8080 nadeemjazmawe/gs-boot
+```
 
 
 you can visit the application at http://localhost:8080/
