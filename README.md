@@ -30,6 +30,7 @@ To push the Container i have used this commands:
 docker tag gs-boot:latest nadeemjazmawe/gs-boot:latest
 docker push nadeemjazmawe/gs-boot:latest
 ```
+![image](https://user-images.githubusercontent.com/44744877/177046434-03975dc9-741c-45e2-89ed-699408bcd26a.png)
 
 
 ## Pull Container ##
