@@ -1,6 +1,6 @@
 # gs-sprint-boot
 
-This this repository about docker.
+This repository about Docker Container.
 I have used  https://github.com/spring-guides/gs-spring-boot.git repository to dockerize a spring boot application with multi-stage image to build and run.
 
 
